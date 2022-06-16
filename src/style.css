@@ -18,8 +18,15 @@ body {
 .nav-items {
   list-style: none;
   display: flex;
+  color: blueviolet;
 }
 
 .nav-items > li {
   padding: 10px;
+}
+
+.footer {
+  background-color: lightgray;
+  padding: 3%;
+  text-align: center;
 }
