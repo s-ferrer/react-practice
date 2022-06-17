@@ -1,7 +1,12 @@
 import React from "react";
+import logoreact from "../images/logoreact.png";
 
-function Navbar() {
-  return <h1>Navbar goes here</h1>;
+export default function Navbar() {
+  return (
+    <nav>
+      <img scr={logoreact} alt="logo" className="nav-log" />
+
+      <h4 className="nav-title">React Course - Project 1</h4>
+    </nav>
+  );
 }
-
-export default Navbar;
